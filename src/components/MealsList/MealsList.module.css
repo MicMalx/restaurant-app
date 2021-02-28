@@ -1,0 +1,17 @@
+.MealsList {
+    text-align: center;
+}
+
+.OrderSummary {
+    text-align: center;
+    margin-top: 50px;
+    color: #C59938;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.TotalPrice {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}

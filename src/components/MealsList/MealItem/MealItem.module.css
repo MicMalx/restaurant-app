@@ -1,0 +1,189 @@
+.MealItems {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .MealItems {
+      width:100%;
+    }
+}
+
+.MealItems .Name {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #C59938;
+    font-weight: 800;
+}
+
+.MealItems .Ings {
+    padding: 7px;
+    font-size: 18;
+    line-height: 30px;
+}
+
+.MealItems .Price {
+    font-size: 24px;
+    color: #202935
+}
+
+.MealItems .Buttons {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.MealItems .Buttons .Less {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    width: 100px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: white;
+}
+
+.MealItems .Buttons .Less:hover, .Less:active {  
+    background-color: #C59938;
+}
+
+.MealItems .Buttons .Less:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.MealItems .Buttons .Less:hover:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.MealItems .Buttons .More {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    width: 100px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: white;
+}
+
+.MealItems .Buttons .More:hover, .More:active {
+    background-color: #C59938;
+}
+
+.Summary {
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 10px;
+    border-top: 2px solid #C59938;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .Summary {
+      width:100%;
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+.Summary .Name {
+    margin-top: 10px;
+    color: #C59938;
+    font-weight: 800;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+.Summary .Ings {
+    padding: 7px;
+    font-size: 18;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+.Summary .Price {
+    color: #202935;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+.Summary .Amount {
+    color: #202935;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+.Summary .Buttons {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    outline: none; 
+    box-sizing: border-box;
+    width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Summary .Name, .Summary .Ings, .Summary .Price, .Summary .Amount, .Summary .Buttons{
+      width:100%;
+    }
+}
+
+.Summary .Buttons .Less {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    width: 100px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: white;
+}
+
+.Summary .Buttons .Less:hover, .Less:active {  
+    background-color: #C59938;
+}
+
+.Summary .Buttons .More {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    width: 100px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: white;
+}
+
+.Summary .Buttons .More:hover, .More:active {
+    background-color: #C59938;
+}
+

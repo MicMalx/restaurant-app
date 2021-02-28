@@ -1,0 +1,21 @@
+.MealType {
+    width: 20%;
+    box-sizing: border-box;
+    margin: 20px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .MealType {
+      width:100%;
+    }
+}
+
+.MealType img {
+    width: 100%;
+}
+
+.Label {
+    margin-top: 10px;
+    text-align: center;
+}
